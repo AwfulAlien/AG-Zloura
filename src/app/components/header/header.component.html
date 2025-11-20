@@ -1,10 +1,11 @@
 <header class="header">
     <div class="container header-content">
         <div class="logo">ZLOURA</div>
-        <nav class="nav">
-            <a href="#" class="nav-link">Collections</a>
-            <a href="#" class="nav-link">New Arrivals</a>
-            <a href="#" class="nav-link">About</a>
+        <button class="mobile-menu-btn" (click)="toggleMenu()">☰</button>
+        <nav class="nav" [class.active]="isMenuOpen">
+            <a href="#" class="nav-link" (click)="toggleMenu()">Collections</a>
+            <a href="#" class="nav-link" (click)="toggleMenu()">New Arrivals</a>
+            <a href="#" class="nav-link" (click)="toggleMenu()">About</a>
         </nav>
         <div class="actions">
             <button class="icon-btn">🔍</button>
