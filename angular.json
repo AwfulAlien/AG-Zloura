@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "clothing-brand-app": {
+    "zloura": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:class": {
@@ -81,10 +81,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "clothing-brand-app:build:production"
+              "buildTarget": "zloura:build:production"
             },
             "development": {
-              "buildTarget": "clothing-brand-app:build:development"
+              "buildTarget": "zloura:build:development"
             }
           },
           "defaultConfiguration": "development"
