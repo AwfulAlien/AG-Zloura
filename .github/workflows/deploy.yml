@@ -1,3 +1,6 @@
+permissions:
+  contents: write
+  
 name: Deploy Angular to GitHub Pages
 
 on:
@@ -30,4 +33,3 @@ jobs:
           branch: gh-pages
           folder: dist/zloura
 
-          
