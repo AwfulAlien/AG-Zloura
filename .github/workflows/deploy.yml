@@ -33,4 +33,4 @@ jobs:
           branch: gh-pages
           folder: dist/zloura/browser 
           clean: true
-          nojekyll: true
+          nojekyll: true 
