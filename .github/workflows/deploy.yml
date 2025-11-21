@@ -34,3 +34,4 @@ jobs:
           folder: dist/zloura/browser 
           clean: true
           nojekyll: true
+          
