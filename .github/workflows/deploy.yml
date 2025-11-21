@@ -25,7 +25,7 @@ jobs:
         run: npm ci
 
       - name: Build Angular
-        run: npm run build --if-present
+        run: npm run build --if-present -- --base-href /AG-Zloura/
 
       - name: Deploy to gh-pages
         uses: JamesIves/github-pages-deploy-action@v4
@@ -34,4 +34,3 @@ jobs:
           folder: dist/zloura/browser 
           clean: true
           nojekyll: true
-          
